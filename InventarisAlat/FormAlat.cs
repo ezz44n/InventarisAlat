@@ -28,6 +28,7 @@ namespace InventarisAlat
         private void FormAlat_Load(object sender, EventArgs e)
         {
             LoadData();
+
         }
 
         // Tombol SIMPAN (Create)
