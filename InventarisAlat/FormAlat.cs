@@ -41,8 +41,8 @@ namespace InventarisAlat
             }
 
             // Menggunakan string interpolation ($) sesuai gaya kamu
-            string query = $"INSERT INTO alat (id, kode_alat, nama_alat, kategori, jumlah, kondisi, lokasi) " +
-                           $"VALUES ('null','{txtKode.Text}', '{txtNama.Text}', '{txtKategori.Text}', '{txtJumlah.Text}', '{cbKondisi.Text}', '{txtLokasi.Text}')";
+          string query = $"INSERT INTO alat (id, kode_alat, nama_alat, kategori, jumlah, kondisi, lokasi) " +
+               $"VALUES ('null','{txtKode.Text}', '{txtNama.Text}', '{txtKategori.Text}', '{txtJumlah.Text}', '{cbKondisi.Text}', '{txtLokasi.Text}')";
 
             Koneksi.crud(query);
             LoadData();

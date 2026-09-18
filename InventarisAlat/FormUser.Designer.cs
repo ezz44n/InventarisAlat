@@ -148,9 +148,8 @@
             this.cbRole.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbRole.FormattingEnabled = true;
             this.cbRole.Items.AddRange(new object[] {
-            "Baik",
-            "Rusak Ringan",
-            "Rusak Berat"});
+            "Admin",
+            "Petugas"});
             this.cbRole.Location = new System.Drawing.Point(104, 140);
             this.cbRole.Name = "cbRole";
             this.cbRole.Size = new System.Drawing.Size(128, 28);
